@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA1434C518D77EA500A31A19 /* TWFiltersCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1434C418D77EA500A31A19 /* TWFiltersCollectionViewController.m */; };
+		AA9574C918D7659F00986A06 /* TWPhotoDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9574C818D7659F00986A06 /* TWPhotoDetailViewController.m */; };
+		AAB1B8E418D6333400484825 /* TWPhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB1B8E318D6333400484825 /* TWPhotoCollectionViewCell.m */; };
+		AAB1B8E618D6355A00484825 /* astronaut.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AAB1B8E518D6355A00484825 /* astronaut.jpg */; };
+		AAB1B8E918D63C6E00484825 /* Album.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB1B8E818D63C6E00484825 /* Album.m */; };
+		AAB1B8EC18D63C6E00484825 /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB1B8EB18D63C6E00484825 /* Photo.m */; };
+		AAB1B8F018D63D4900484825 /* TWPictureDataTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB1B8EF18D63D4900484825 /* TWPictureDataTransformer.m */; };
+		AABBFD3B18D601C300B02978 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AABBFD3A18D601C300B02978 /* Foundation.framework */; };
+		AABBFD3D18D601C300B02978 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AABBFD3C18D601C300B02978 /* CoreGraphics.framework */; };
+		AABBFD3F18D601C300B02978 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AABBFD3E18D601C300B02978 /* UIKit.framework */; };
+		AABBFD4118D601C300B02978 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AABBFD4018D601C300B02978 /* CoreData.framework */; };
+		AABBFD4718D601C300B02978 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AABBFD4518D601C300B02978 /* InfoPlist.strings */; };
+		AABBFD4918D601C300B02978 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AABBFD4818D601C300B02978 /* main.m */; };
+		AABBFD4D18D601C300B02978 /* TWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AABBFD4C18D601C300B02978 /* TWAppDelegate.m */; };
+		AABBFD5018D601C300B02978 /* Thousand_Words.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AABBFD4E18D601C300B02978 /* Thousand_Words.xcdatamodeld */; };
+		AABBFD5218D601C300B02978 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AABBFD5118D601C300B02978 /* Images.xcassets */; };
+		AABBFD5918D601C300B02978 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AABBFD5818D601C300B02978 /* XCTest.framework */; };
+		AABBFD5A18D601C300B02978 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AABBFD3A18D601C300B02978 /* Foundation.framework */; };
+		AABBFD5B18D601C300B02978 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AABBFD3E18D601C300B02978 /* UIKit.framework */; };
+		AABBFD5C18D601C300B02978 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AABBFD4018D601C300B02978 /* CoreData.framework */; };
+		AABBFD6418D601C300B02978 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AABBFD6218D601C300B02978 /* InfoPlist.strings */; };
+		AABBFD6618D601C300B02978 /* Thousand_WordsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AABBFD6518D601C300B02978 /* Thousand_WordsTests.m */; };
+		AABBFD7018D6035300B02978 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AABBFD6F18D6035300B02978 /* Main.storyboard */; };
+		AABBFD7318D603FE00B02978 /* TWAlbumTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AABBFD7218D603FE00B02978 /* TWAlbumTableViewController.m */; };
+		AABBFD7918D62D5100B02978 /* TWCoreDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = AABBFD7818D62D5100B02978 /* TWCoreDataHelper.m */; };
+		AABBFD7C18D630BD00B02978 /* TWPhotosCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AABBFD7B18D630BD00B02978 /* TWPhotosCollectionViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AABBFD5D18D601C300B02978 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AABBFD2F18D601C300B02978 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AABBFD3618D601C300B02978;
+			remoteInfo = "Thousand Words";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA1434C318D77EA500A31A19 /* TWFiltersCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWFiltersCollectionViewController.h; sourceTree = "<group>"; };
+		AA1434C418D77EA500A31A19 /* TWFiltersCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWFiltersCollectionViewController.m; sourceTree = "<group>"; };
+		AA9574C718D7659F00986A06 /* TWPhotoDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWPhotoDetailViewController.h; sourceTree = "<group>"; };
+		AA9574C818D7659F00986A06 /* TWPhotoDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWPhotoDetailViewController.m; sourceTree = "<group>"; };
+		AAB1B8E218D6333400484825 /* TWPhotoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWPhotoCollectionViewCell.h; sourceTree = "<group>"; };
+		AAB1B8E318D6333400484825 /* TWPhotoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWPhotoCollectionViewCell.m; sourceTree = "<group>"; };
+		AAB1B8E518D6355A00484825 /* astronaut.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = astronaut.jpg; sourceTree = "<group>"; };
+		AAB1B8E718D63C6E00484825 /* Album.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Album.h; sourceTree = "<group>"; };
+		AAB1B8E818D63C6E00484825 /* Album.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Album.m; sourceTree = "<group>"; };
+		AAB1B8EA18D63C6E00484825 /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
+		AAB1B8EB18D63C6E00484825 /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
+		AAB1B8EE18D63D4900484825 /* TWPictureDataTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWPictureDataTransformer.h; sourceTree = "<group>"; };
+		AAB1B8EF18D63D4900484825 /* TWPictureDataTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWPictureDataTransformer.m; sourceTree = "<group>"; };
+		AABBFD3718D601C300B02978 /* Thousand Words.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Thousand Words.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AABBFD3A18D601C300B02978 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AABBFD3C18D601C300B02978 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AABBFD3E18D601C300B02978 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AABBFD4018D601C300B02978 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		AABBFD4418D601C300B02978 /* Thousand Words-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Thousand Words-Info.plist"; sourceTree = "<group>"; };
+		AABBFD4618D601C300B02978 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AABBFD4818D601C300B02978 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AABBFD4A18D601C300B02978 /* Thousand Words-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Thousand Words-Prefix.pch"; sourceTree = "<group>"; };
+		AABBFD4B18D601C300B02978 /* TWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWAppDelegate.h; sourceTree = "<group>"; };
+		AABBFD4C18D601C300B02978 /* TWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWAppDelegate.m; sourceTree = "<group>"; };
+		AABBFD4F18D601C300B02978 /* Thousand_Words.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Thousand_Words.xcdatamodel; sourceTree = "<group>"; };
+		AABBFD5118D601C300B02978 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AABBFD5718D601C300B02978 /* Thousand WordsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Thousand WordsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AABBFD5818D601C300B02978 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		AABBFD6118D601C300B02978 /* Thousand WordsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Thousand WordsTests-Info.plist"; sourceTree = "<group>"; };
+		AABBFD6318D601C300B02978 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AABBFD6518D601C300B02978 /* Thousand_WordsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Thousand_WordsTests.m; sourceTree = "<group>"; };
+		AABBFD6F18D6035300B02978 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		AABBFD7118D603FE00B02978 /* TWAlbumTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWAlbumTableViewController.h; sourceTree = "<group>"; };
+		AABBFD7218D603FE00B02978 /* TWAlbumTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWAlbumTableViewController.m; sourceTree = "<group>"; };
+		AABBFD7718D62D5100B02978 /* TWCoreDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWCoreDataHelper.h; sourceTree = "<group>"; };
+		AABBFD7818D62D5100B02978 /* TWCoreDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWCoreDataHelper.m; sourceTree = "<group>"; };
+		AABBFD7A18D630BD00B02978 /* TWPhotosCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWPhotosCollectionViewController.h; sourceTree = "<group>"; };
+		AABBFD7B18D630BD00B02978 /* TWPhotosCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWPhotosCollectionViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AABBFD3418D601C300B02978 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AABBFD3D18D601C300B02978 /* CoreGraphics.framework in Frameworks */,
+				AABBFD4118D601C300B02978 /* CoreData.framework in Frameworks */,
+				AABBFD3F18D601C300B02978 /* UIKit.framework in Frameworks */,
+				AABBFD3B18D601C300B02978 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AABBFD5418D601C300B02978 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AABBFD5918D601C300B02978 /* XCTest.framework in Frameworks */,
+				AABBFD5C18D601C300B02978 /* CoreData.framework in Frameworks */,
+				AABBFD5B18D601C300B02978 /* UIKit.framework in Frameworks */,
+				AABBFD5A18D601C300B02978 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAB1B8ED18D63C9600484825 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				AAB1B8E718D63C6E00484825 /* Album.h */,
+				AAB1B8E818D63C6E00484825 /* Album.m */,
+				AAB1B8EA18D63C6E00484825 /* Photo.h */,
+				AAB1B8EB18D63C6E00484825 /* Photo.m */,
+				AAB1B8EE18D63D4900484825 /* TWPictureDataTransformer.h */,
+				AAB1B8EF18D63D4900484825 /* TWPictureDataTransformer.m */,
+				AABBFD4E18D601C300B02978 /* Thousand_Words.xcdatamodeld */,
+			);
+			name = "Core Data";
+			sourceTree = "<group>";
+		};
+		AABBFD2E18D601C300B02978 = {
+			isa = PBXGroup;
+			children = (
+				AABBFD4218D601C300B02978 /* Thousand Words */,
+				AABBFD5F18D601C300B02978 /* Thousand WordsTests */,
+				AABBFD3918D601C300B02978 /* Frameworks */,
+				AABBFD3818D601C300B02978 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AABBFD3818D601C300B02978 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AABBFD3718D601C300B02978 /* Thousand Words.app */,
+				AABBFD5718D601C300B02978 /* Thousand WordsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AABBFD3918D601C300B02978 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AABBFD3A18D601C300B02978 /* Foundation.framework */,
+				AABBFD3C18D601C300B02978 /* CoreGraphics.framework */,
+				AABBFD3E18D601C300B02978 /* UIKit.framework */,
+				AABBFD4018D601C300B02978 /* CoreData.framework */,
+				AABBFD5818D601C300B02978 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AABBFD4218D601C300B02978 /* Thousand Words */ = {
+			isa = PBXGroup;
+			children = (
+				AABBFD6F18D6035300B02978 /* Main.storyboard */,
+				AA1434C318D77EA500A31A19 /* TWFiltersCollectionViewController.h */,
+				AA1434C418D77EA500A31A19 /* TWFiltersCollectionViewController.m */,
+				AAB1B8E218D6333400484825 /* TWPhotoCollectionViewCell.h */,
+				AAB1B8E318D6333400484825 /* TWPhotoCollectionViewCell.m */,
+				AABBFD7A18D630BD00B02978 /* TWPhotosCollectionViewController.h */,
+				AABBFD7B18D630BD00B02978 /* TWPhotosCollectionViewController.m */,
+				AA9574C718D7659F00986A06 /* TWPhotoDetailViewController.h */,
+				AA9574C818D7659F00986A06 /* TWPhotoDetailViewController.m */,
+				AABBFD7118D603FE00B02978 /* TWAlbumTableViewController.h */,
+				AABBFD7218D603FE00B02978 /* TWAlbumTableViewController.m */,
+				AABBFD7718D62D5100B02978 /* TWCoreDataHelper.h */,
+				AABBFD7818D62D5100B02978 /* TWCoreDataHelper.m */,
+				AABBFD5118D601C300B02978 /* Images.xcassets */,
+				AAB1B8ED18D63C9600484825 /* Core Data */,
+				AABBFD4318D601C300B02978 /* Supporting Files */,
+			);
+			path = "Thousand Words";
+			sourceTree = "<group>";
+		};
+		AABBFD4318D601C300B02978 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AAB1B8E518D6355A00484825 /* astronaut.jpg */,
+				AABBFD4B18D601C300B02978 /* TWAppDelegate.h */,
+				AABBFD4C18D601C300B02978 /* TWAppDelegate.m */,
+				AABBFD4418D601C300B02978 /* Thousand Words-Info.plist */,
+				AABBFD4518D601C300B02978 /* InfoPlist.strings */,
+				AABBFD4818D601C300B02978 /* main.m */,
+				AABBFD4A18D601C300B02978 /* Thousand Words-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AABBFD5F18D601C300B02978 /* Thousand WordsTests */ = {
+			isa = PBXGroup;
+			children = (
+				AABBFD6518D601C300B02978 /* Thousand_WordsTests.m */,
+				AABBFD6018D601C300B02978 /* Supporting Files */,
+			);
+			path = "Thousand WordsTests";
+			sourceTree = "<group>";
+		};
+		AABBFD6018D601C300B02978 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AABBFD6118D601C300B02978 /* Thousand WordsTests-Info.plist */,
+				AABBFD6218D601C300B02978 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AABBFD3618D601C300B02978 /* Thousand Words */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AABBFD6918D601C300B02978 /* Build configuration list for PBXNativeTarget "Thousand Words" */;
+			buildPhases = (
+				AABBFD3318D601C300B02978 /* Sources */,
+				AABBFD3418D601C300B02978 /* Frameworks */,
+				AABBFD3518D601C300B02978 /* Resources */,
+				50524F424C454D533F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Thousand Words";
+			productName = "Thousand Words";
+			productReference = AABBFD3718D601C300B02978 /* Thousand Words.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AABBFD5618D601C300B02978 /* Thousand WordsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AABBFD6C18D601C300B02978 /* Build configuration list for PBXNativeTarget "Thousand WordsTests" */;
+			buildPhases = (
+				AABBFD5318D601C300B02978 /* Sources */,
+				AABBFD5418D601C300B02978 /* Frameworks */,
+				AABBFD5518D601C300B02978 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AABBFD5E18D601C300B02978 /* PBXTargetDependency */,
+			);
+			name = "Thousand WordsTests";
+			productName = "Thousand WordsTests";
+			productReference = AABBFD5718D601C300B02978 /* Thousand WordsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AABBFD2F18D601C300B02978 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TW;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Christian Alsaybar";
+				TargetAttributes = {
+					AABBFD5618D601C300B02978 = {
+						TestTargetID = AABBFD3618D601C300B02978;
+					};
+				};
+			};
+			buildConfigurationList = AABBFD3218D601C300B02978 /* Build configuration list for PBXProject "Thousand Words" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AABBFD2E18D601C300B02978;
+			productRefGroup = AABBFD3818D601C300B02978 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AABBFD3618D601C300B02978 /* Thousand Words */,
+				AABBFD5618D601C300B02978 /* Thousand WordsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AABBFD3518D601C300B02978 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AABBFD7018D6035300B02978 /* Main.storyboard in Resources */,
+				AAB1B8E618D6355A00484825 /* astronaut.jpg in Resources */,
+				AABBFD4718D601C300B02978 /* InfoPlist.strings in Resources */,
+				AABBFD5218D601C300B02978 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AABBFD5518D601C300B02978 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AABBFD6418D601C300B02978 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		50524F424C454D533F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export CODESIGN_ALLOCATE=/Library/JailCoder/codesign_allocate\nif [ \"${PLATFORM_NAME}\" == \"iphoneos\" ]; then\n/Library/JailCoder/Entitlements/Entitlements.py \"my.company.${PROJECT_NAME}\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\";\ncodesign -f -s \"iPhone Developer\" --entitlements \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AABBFD3318D601C300B02978 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AABBFD4918D601C300B02978 /* main.m in Sources */,
+				AA1434C518D77EA500A31A19 /* TWFiltersCollectionViewController.m in Sources */,
+				AAB1B8F018D63D4900484825 /* TWPictureDataTransformer.m in Sources */,
+				AABBFD7C18D630BD00B02978 /* TWPhotosCollectionViewController.m in Sources */,
+				AAB1B8E418D6333400484825 /* TWPhotoCollectionViewCell.m in Sources */,
+				AAB1B8EC18D63C6E00484825 /* Photo.m in Sources */,
+				AAB1B8E918D63C6E00484825 /* Album.m in Sources */,
+				AABBFD4D18D601C300B02978 /* TWAppDelegate.m in Sources */,
+				AABBFD7318D603FE00B02978 /* TWAlbumTableViewController.m in Sources */,
+				AA9574C918D7659F00986A06 /* TWPhotoDetailViewController.m in Sources */,
+				AABBFD5018D601C300B02978 /* Thousand_Words.xcdatamodeld in Sources */,
+				AABBFD7918D62D5100B02978 /* TWCoreDataHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AABBFD5318D601C300B02978 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AABBFD6618D601C300B02978 /* Thousand_WordsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AABBFD5E18D601C300B02978 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AABBFD3618D601C300B02978 /* Thousand Words */;
+			targetProxy = AABBFD5D18D601C300B02978 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AABBFD4518D601C300B02978 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AABBFD4618D601C300B02978 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AABBFD6218D601C300B02978 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AABBFD6318D601C300B02978 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AABBFD6718D601C300B02978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AABBFD6818D601C300B02978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AABBFD6A18D601C300B02978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Thousand Words/Thousand Words-Prefix.pch";
+				INFOPLIST_FILE = "Thousand Words/Thousand Words-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AABBFD6B18D601C300B02978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Thousand Words/Thousand Words-Prefix.pch";
+				INFOPLIST_FILE = "Thousand Words/Thousand Words-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AABBFD6D18D601C300B02978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Thousand Words.app/Thousand Words";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Thousand Words/Thousand Words-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Thousand WordsTests/Thousand WordsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		AABBFD6E18D601C300B02978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Thousand Words.app/Thousand Words";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Thousand Words/Thousand Words-Prefix.pch";
+				INFOPLIST_FILE = "Thousand WordsTests/Thousand WordsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AABBFD3218D601C300B02978 /* Build configuration list for PBXProject "Thousand Words" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AABBFD6718D601C300B02978 /* Debug */,
+				AABBFD6818D601C300B02978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AABBFD6918D601C300B02978 /* Build configuration list for PBXNativeTarget "Thousand Words" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AABBFD6A18D601C300B02978 /* Debug */,
+				AABBFD6B18D601C300B02978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AABBFD6C18D601C300B02978 /* Build configuration list for PBXNativeTarget "Thousand WordsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AABBFD6D18D601C300B02978 /* Debug */,
+				AABBFD6E18D601C300B02978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AABBFD4E18D601C300B02978 /* Thousand_Words.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AABBFD4F18D601C300B02978 /* Thousand_Words.xcdatamodel */,
+			);
+			currentVersion = AABBFD4F18D601C300B02978 /* Thousand_Words.xcdatamodel */;
+			path = Thousand_Words.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AABBFD2F18D601C300B02978 /* Project object */;
+}
